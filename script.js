@@ -13,7 +13,7 @@ let updatedList = arr.map((element) => {
 }) ;
 let mp = {} ; // {"some one" : "a some one"}
 updatedList.forEach( (element, index) => {
-	mp[element] = arr[i] ;
+	mp[element] = arr[index] ;
 });
 // ["some one" , "mno abc" , "abc kh"]
 
