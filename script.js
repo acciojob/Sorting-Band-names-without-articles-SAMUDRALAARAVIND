@@ -23,4 +23,13 @@ let finalAns = updatedList.map((element) => {
     return mp[element] ;
 })
 
-console.log(finalAns); 
+const ul = document.getElementById("band")
+
+finalAns.forEach((item) => {
+	const li = document.createElement("li");
+	li.innerText = item ;
+	ul.append(li);
+})
+
+
+
